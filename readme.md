@@ -6,4 +6,4 @@ My first Web App using Laravel as backbone to my projet. The goal was to underst
 * Generate some statiscs for every url generated 
 * User accounts
 
-## Feel free to contribute to my little project.
+## Please feel free to contribute to my little project.
