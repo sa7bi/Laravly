@@ -24,7 +24,13 @@
 		
 	</script>
 	{{ Form::open(array('URL' => '/','class' => 'form-horizontal', 'id' => 'target')) }}
-	{{ Form::text('url','',array('id' => 'input','placeholder' => 'Your long URL goes here..','class' => 'form-control')) }}
+	{{ Form::url('url','',array(
+		'id' => 'input',
+		'placeholder' => 'Your long URL goes here..',
+		'class' => 'form-control',
+		'required')
+		) 
+	}}
 	{{ Form::close() }}
 	<div id="result">
 		
